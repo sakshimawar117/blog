@@ -1,0 +1,223 @@
+.heading{
+    background-color: bisque;
+    height: 215px;
+background-image: url("../image/lorem.jpg");
+background-size: cover;
+ color: khaki;
+ background-attachment: fixed;
+ width: 100vw;
+}
+h1{text-align: center;
+    font-family: Gabriola;
+    font-size: 70px;
+    margin: 0px;
+ }
+ h2{font-family: Gabriola;
+    text-align: center;
+    margin: 0px;}
+    
+    h3{font-family: Gabriola;
+        text-align: center;
+        margin: 0px;}
+        body{margin: 0px;}
+
+        .container{width: 1000px;
+            height: 985px;
+            background-color: #18191a;
+            opacity: 0.8;
+            color: blanchedalmond;}
+
+        hr{color: black;
+            width: 900px;}
+            .pragraph1 p{ margin-left: 10px;
+                margin-top: 0px;
+                
+            }
+            .pragraph1{width: 456px;
+                height: 238px;
+            margin-top: 10px;
+            margin-left: 20px;
+            }
+            
+            
+            .pragraph3{width: 456px;
+                height:460px;
+            margin-top: 20px;
+            float: right;
+            margin-top: -237px;
+            margin-right: 20px;
+            }            
+
+    body{ 
+       
+        background-image: url("../image/bulb.jpg");
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 1200px;
+    }
+
+    .checkbox{margin-top: -82px;
+        margin-left: 169px;
+    }
+    
+    button{ margin-top: 20px;
+        margin-left: 20px;
+        border-radius: 5px;
+        padding: 5px;}
+    
+        .text{text-align: center;}
+    
+        a{color: red;
+        text-decoration: underline;
+    cursor: pointer;}
+        
+    
+    .box{width:196px;
+        height: 70px;
+    margin-right: auto;
+    background-color: black;
+    display: inline-block;
+    color: blanchedalmond;
+    margin-left: 10px;
+    font-family: Brush Script MT;
+    }
+    section{text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .bottom{ width: 1601px;
+    height: 170px;
+background-color:#000000ed;
+margin-top: 10px;
+text-align: center;
+color: khaki;
+font-family: Gabriola;
+font-size: 20px;
+background-attachment: fixed;}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    top: 0;
+    width: 3rem;
+    padding: 0 .5em;
+    bottom: 0;
+    margin: 0;
+    right: 0;
+    background-color: rgb(29 17 13 / 75%);
+    position: fixed;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 2em;
+    border-radius: 1em 0 0 1em;
+    transition: all .2s;
+}
+
+nav li{
+    font-size: 2em;
+    padding: .5em 0;
+    color: rgb(199 185 163);
+    cursor: pointer;
+    transition: color .5s;
+}
+
+nav li i{
+    transition: all .5s;
+}
+nav li:hover{
+    color:khaki;
+}
+.span{
+    display: none;
+    margin-left:.5em ;
+    transition: all .5s;
+}
+nav li i:hover {
+    transform: rotate3d(0, 1, 0, 360deg);
+}
+nav:hover{
+    align-items: flex-start;
+    width: 13rem;
+}
+
+nav:hover .span{
+    display: inline;
+    transition: all .5s;
+} 
+.logo{ height: 106px;
+width: 100px;
+background-image: url("../image/loremlogo.jpg");
+background-size: cover;
+background-position: center;
+display: inline-block;
+margin-left: 0px;
+filter:  sepia(1)blur(1px);
+transition: .5s all;
+cursor:pointer;}
+
+.logo2{ height: 100px;
+    width: 100px;
+    background-image: url("../image/wordpresslogo.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: sepia(1)blur(1px);
+transition: .5s all;
+cursor:pointer;
+    }
+
+    .logo3{ height: 100px;
+        width: 100px;
+        background-image: url("../image/windowslogo.jpg");
+        background-size: cover;
+        background-position: center;
+        filter: sepia(1)blur(1px);
+transition: .5s all;
+cursor:pointer;
+        }
+
+        .logo4{ height: 100px;
+            width: 100px;
+            background-image: url("../image/linuxlogo.jpg");
+            background-size: cover;
+            background-position: center;
+            filter: sepia(1)blur(1px);
+transition: .5s all;
+cursor:pointer;
+            }
+            .logo5{ height: 70px;
+                width: 200px;
+                background-image: url("../image/logo.jpg");
+                background-size: cover;
+                background-position: center;
+                filter:  sepia(1)blur(1px);
+transition: .5s all;
+cursor:pointer;
+                }
+
+    .company{width:1601px ;
+        height: 150px;
+        background-color: #000000ed;
+        display: flex;
+        justify-content:space-evenly ;
+        justify-items: center;
+    padding-top: 20px;
+    }
+
+
+.logo:hover{filter:sepia(0)blur(0);   
+      transform: scale(1.3);}
+
+      .logo2:hover{filter: sepia(0)blur(0);   
+        transform: scale(1.3);}
+
+        .logo3:hover{filter:sepia(0)blur(0);  
+            transform: scale(1.3);}
+
+            .logo4:hover{filter: sepia(0)blur(0);   
+                transform: scale(1.3);}
+
+                .logo5:hover{filter: sepia(0)blur(0);  
+                    transform: scale(1.3);}
+  
